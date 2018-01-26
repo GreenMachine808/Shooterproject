@@ -151,7 +151,24 @@ function gameLoop () {
   coin.update();
   coin.render();
 }
+hat.render = function () {
+					
+    // Clear the canvas
+    context.clearRect(0, 0, that.width, that.height);
 
+        // Draw the animation
+        that.context.drawImage(
+           that.image,
+           frameIndex * that.width / numberOfFrames,
+           0,
+           that.width,
+           that.height,
+           0,
+           0,
+           that.width,
+           that.height);
+    };   
+};
 
 
 
