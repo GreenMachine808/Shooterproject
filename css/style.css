@@ -1,10 +1,16 @@
 body {
 	background-color: cyan;
 	text-align: center;
-	width: 100px;
-	height: 100px;
+	
 }
  h3 {
 	font-family: fantasy;
-	color: black;
+	background-color: green;
+	width: 100px;
+	height: 100px;
+}
+#you {
+	background-image: "assets/You.png"
+	width: 25px;
+	height: 25px;
 }
