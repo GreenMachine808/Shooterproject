@@ -1,0 +1,10 @@
+body {
+	background-color: cyan;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+ h3 {
+	font-family: fantasy;
+	color: black;
+}
